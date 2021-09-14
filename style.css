@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-around;
+}
+
+.navbar {
+    background-color: aliceblue;
+    height: 7.5vh;
+
+    display: flex;
+    text-align: center;
+}
+
+.logotype-case {
+    background-color: #e5e9f0;
+}
+
+.logotype {
+    padding: .5em 1em;
+    color: #4c566a;
+}
+
+.search-bar {
+    background-color: blueviolet;
+    flex-grow: 1;
+}
+
+.menu {
+    background-color: brown;
+
+    display: flex;
+}
+
+.carrousel {
+    background-color: #fff;
+    height: 20vh;
+}
+
+.offers {
+    background-color: #ECEFF4;
+    flex-grow: 1;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.offers-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    margin: 3px;
+    width: 45%;
+    height: auto;
+    border-radius: 0.25em;
+    box-shadow: 2px 2px 2px #E5E9F0;
+    padding: 2px;
+}
+
+.price {
+    padding: 3px;
+}
+
+.footer {
+    background-color: #fff;
+    height: 20vh;
+}
+
+img {
+    height: 95%;
+    width: 95%;
+    border-radius: 0.25em;
+}
